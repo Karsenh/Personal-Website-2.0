@@ -47,9 +47,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 </div>
 
 <div className="content flex">
-<div className='content'>
 {children}
-</div>
 <p>{AttributionName = 'Karsen'} | {year} </p>
 </div>
         </>
