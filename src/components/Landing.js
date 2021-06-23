@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
-import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
+import LiveHelpOutlinedIcon from '@material-ui/icons/LiveHelpOutlined';
 import WorkOutlineOutlinedIcon from '@material-ui/icons/WorkOutlineOutlined';
 import PermContactCalendarOutlinedIcon from '@material-ui/icons/PermContactCalendarOutlined';
 
@@ -25,7 +25,7 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
 </svg>
 <h1>Hi, I'm <strong>Karsen</strong>. 👋🏼</h1>
 </div>
-<Button className='custom-btn' variant='outlined' color='primary'><SearchOutlinedIcon/><span style={{marginLeft: '0.5rem'}}>About</span></Button>
+<Button className='custom-btn' variant='outlined' color='primary'><LiveHelpOutlinedIcon/><span style={{marginLeft: '0.5rem'}}>About</span></Button>
 <Button className='custom-btn' variant='outlined' color='primary'><WorkOutlineOutlinedIcon/><span style={{marginLeft: '0.5rem'}}>Portfolio</span></Button>
 <Button className='custom-btn' variant='outlined' color='primary'><PermContactCalendarOutlinedIcon /><span style={{marginLeft: '0.5rem'}}>Contact</span></Button>
 

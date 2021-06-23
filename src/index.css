@@ -29,7 +29,7 @@ p {
 .custom-btn:hover {
     background-color: rgba(4, 238, 218, 0.63) !important;
     color: rgba(16, 70, 102, 0.753) !important;
-    border-color: rgba(16, 70, 102, 0.753) !important;
+    border-color: rgba(16, 70, 102, 0.603) !important;
     font-weight: 600;
 }
 

@@ -5,8 +5,9 @@ function App() {
   return (
     <div className="App">
       <Landing>
-        <h1>This is just general test content</h1>
-        <h1>Now I'm testing some more content</h1>
+        <h1>About me</h1>
+        <h1>Portfolio</h1>
+        <h1>Contact</h1>
       </Landing>
     </div>
   );
