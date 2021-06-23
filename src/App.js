@@ -4,9 +4,9 @@ function App() {
 
   return (
     <div className="App">
-      <Landing AttributionName={'Karsen'}>
-        <h1>Test</h1>
-        <h1>Test</h1>
+      <Landing>
+        <h1>This is just general test content</h1>
+        <h1>Now I'm testing some more content</h1>
       </Landing>
     </div>
   );

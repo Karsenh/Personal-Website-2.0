@@ -47,7 +47,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <div className='content'>
 {children}
 </div>
-<p>{AttributionName} | {year} </p>
+<p>{AttributionName = 'Karsen'} | {year} </p>
 </div>
         </>
     )
