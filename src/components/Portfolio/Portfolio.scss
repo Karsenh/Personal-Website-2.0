@@ -11,9 +11,27 @@
 }
 
 .portfolio-card {
-    padding: 1rem;
-    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1rem 2rem;
+    width: 30vw;
+    margin: 0 4rem;
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: rgba(75, 75, 75, 0.75)
     }
+    p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+.portfolio-card:hover {
+    transition: 0.5s;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }

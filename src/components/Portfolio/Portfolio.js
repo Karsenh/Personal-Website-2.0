@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Cards/Card';
+import CustomCard from './Cards/Card';
 import './Portfolio.scss';
 import { Projects } from './Cards/CardData';
 
@@ -11,10 +11,11 @@ const Portfolio = () => {
         {Projects.map((project, index) => {
           return (
             <div className='portfolio-card'>
-              <Card
+              <CustomCard
                 key={index}
                 title={project.title}
                 description={project.description}
+                link={project.link}
               />
             </div>
           );

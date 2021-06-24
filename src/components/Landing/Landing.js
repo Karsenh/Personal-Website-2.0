@@ -2,11 +2,15 @@ import AnimatedWaves from './Waves';
 import React from 'react';
 import NavButtons from './NavButtons';
 import Footer from '../Footer/Footer';
+import Particles from 'react-particles-js';
 
 const Landing = ({ children }) => {
   return (
     <>
       <div className='header'>
+        <Particles
+          style={{ position: 'absolute', left: '0', opacity: '40%' }}
+        />
         <div className='inner-header flex'>
           <svg
             version='1.1'
