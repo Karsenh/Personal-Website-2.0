@@ -6,7 +6,7 @@ import { Projects } from './Cards/CardData';
 const Portfolio = () => {
   return (
     <div className='portfolio-content'>
-      <h1 style={{ textAlign: 'center', marginLeft: '2rem' }}>My Portfolio</h1>
+      <h1>My Portfolio</h1>
       <div className='portfolio-cards'>
         {Projects.map((project, index) => {
           return (

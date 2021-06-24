@@ -1,7 +1,8 @@
 export const Projects = [
   {
-    title: 'Boeing Senior Capstone',
-    description: 'this was some dope stuff',
+    title: 'Boeing 360 (MERN App)',
+    description:
+      'Worked with a team of three to develop out a full-stack web application for Boeing capable of streaming 360-degree (navigable) video and simulated location services',
     tags: ['Full-Stack', 'MERN'],
   },
   {
@@ -10,7 +11,7 @@ export const Projects = [
     tags: ['Full-Stack', 'MERN'],
   },
   {
-    title: 'Personal Website',
+    title: 'Memories (MERN App)',
     description: 'here you are...',
     tags: ['React.js', 'JavaScript'],
   },
