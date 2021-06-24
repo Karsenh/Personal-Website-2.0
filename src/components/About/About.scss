@@ -10,7 +10,7 @@ p {
     margin: 0 2rem 4rem;
 }
 
-.about-row {
+.about-first {
     display: flex;
     justify-content: space-evenly;
 }
@@ -18,7 +18,8 @@ p {
 .about-second {
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 5rem;
+    padding: 0 8rem;
 }
 
 .about-name {
@@ -41,7 +42,7 @@ p {
 }
 
 .social-icons {
-    margin-top: 3rem;
+    margin-top: 4rem;
     display: flex;
     justify-content: space-evenly;
 }

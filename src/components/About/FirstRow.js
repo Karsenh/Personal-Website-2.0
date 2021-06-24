@@ -5,7 +5,7 @@ import { FaHtml5, FaJava, FaJs, FaPython } from 'react-icons/fa';
 
 const FirstRow = () => {
   return (
-    <>
+    <div className='about-first'>
       <div className='about-name'>
         <div
           style={{
@@ -25,7 +25,8 @@ const FirstRow = () => {
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'space-evenly',
-            margin: '2rem auto',
+
+            padding: '1rem 2rem',
           }}
         >
           <p>
@@ -37,7 +38,7 @@ const FirstRow = () => {
           </p>
           <p>
             I'm a passionate full-stack web developer, specializing in React.js
-            with three + years of OOP experience across several programming
+            with over three years of OOP experience across several programming
             languages
           </p>
           <div
@@ -55,7 +56,7 @@ const FirstRow = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
