@@ -1,17 +1,16 @@
-import Landing from "./components/Landing";
+import Landing from './components/Landing/Landing';
+import About from './components/About/About';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
+import { Router } from 'react-router-dom';
 
 function App() {
-
   return (
-    <div className="App">
-      <Landing>
-        <h1>About me</h1>
-        <hr />
-        <br />
-        <h1>Portfolio</h1>
-        <h1>Contact</h1>
-      </Landing>
-    </div>
+    <Landing>
+      <About />
+      <Portfolio />
+      <Contact />
+    </Landing>
   );
 }
 

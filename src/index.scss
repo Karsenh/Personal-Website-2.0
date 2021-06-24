@@ -1,5 +1,8 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
+$main-dark-blue: rgba(16, 70, 102, 0.60);
+$main-light-turq: rgba(4, 238, 218, 0.65);
+
 body {
     margin: 0;
 }
@@ -18,6 +21,33 @@ p {
     color: #333333;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* SCROLL-BAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $main-dark-blue;
+    border-radius: 5rem;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $main-light-turq; 
+  }
+
 .landing-header {
     font-size: 62px;
 }
@@ -31,8 +61,8 @@ p {
 }
 
 .custom-btn:hover {
-    background-color: rgba(4, 238, 218, 0.63) !important;
-    color: rgba(16, 70, 102, 0.753) !important;
+    background-color: $main-light-turq !important;
+    color: $main-dark-blue !important;
     border-color: rgba(16, 70, 102, 0.603) !important;
     font-weight: 600;
 }
