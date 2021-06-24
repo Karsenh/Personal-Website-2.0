@@ -1,0 +1,18 @@
+.portfolio-content {
+    width: 99vw;
+    padding: 0 3rem;
+    margin: 0 2rem 4rem;
+}
+
+.portfolio-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.portfolio-card {
+    padding: 1rem;
+    h1 {
+        font-size: 2rem;
+    }
+}
