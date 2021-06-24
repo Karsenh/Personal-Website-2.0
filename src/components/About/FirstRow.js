@@ -45,7 +45,7 @@ const FirstRow = () => {
             style={{
               display: 'flex',
               justifyContent: 'space-evenly',
-              marginTop: '1.5rem',
+              marginTop: '2.5rem',
               opacity: '15%',
             }}
           >
