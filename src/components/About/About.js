@@ -2,6 +2,7 @@ import React from 'react';
 import '../About/About.scss';
 
 import FirstRow from './FirstRow';
+import SecondRow from './SecondRow';
 
 const About = () => {
   return (
@@ -11,8 +12,10 @@ const About = () => {
         <div className='about-row about-first'>
           <FirstRow />
         </div>
+        <div className='about-row about-second'>
+          <SecondRow />
+        </div>
       </div>
-      <div className='about-row about-second'>Test content</div>
     </div>
   );
 };

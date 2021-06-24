@@ -7,34 +7,52 @@ const FirstRow = () => {
   return (
     <>
       <div className='about-name'>
-        <img className='profile-pic' src={profilePic} alt='' />
-        <p style={{ marginTop: '3rem' }}>
-          My name is <strong>Karsen Hansen</strong>.
-        </p>
-        <p>
-          <strong>Computer Science</strong> Graduate of{' '}
-          <strong>Gonzaga University</strong> in Spokane Washington.
-        </p>
-        <SocialIcons />
-      </div>
-      <div className='about-intro-statement'>
-        <p>
-          I'm a passionate <strong>web-developer</strong>, specializing in
-          React.js with three + years of OOP experience across several
-          programming languages
-        </p>
         <div
           style={{
             display: 'flex',
-            justifyContent: 'space-evenly',
-            marginTop: '1rem',
-            opacity: '15%',
+            justifyContent: 'center',
+            marginTop: '2rem',
           }}
         >
-          <FaJs size={20} />
-          <FaJava size={20} />
-          <FaPython size={20} />
-          <FaHtml5 size={20} />
+          <img className='profile-pic' src={profilePic} alt='' />
+        </div>
+
+        <SocialIcons />
+      </div>
+      <div className='about-intro-statement'>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-evenly',
+            margin: '2rem auto',
+          }}
+        >
+          <p>
+            My name is <span className='custom-name'>Karsen Hansen</span>.
+          </p>
+          <p>
+            <strong>Computer Science</strong> Graduate of{' '}
+            <strong>Gonzaga University</strong> in Spokane Washington.
+          </p>
+          <p>
+            I'm a passionate full-stack web developer, specializing in React.js
+            with three + years of OOP experience across several programming
+            languages
+          </p>
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-evenly',
+              marginTop: '1.5rem',
+              opacity: '15%',
+            }}
+          >
+            <FaJs size={20} />
+            <FaJava size={20} />
+            <FaPython size={20} />
+            <FaHtml5 size={20} />
+          </div>
         </div>
       </div>
     </>
