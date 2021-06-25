@@ -5,6 +5,7 @@ const Card = ({ title, description, link }) => {
   return (
     <>
       <h1>{title}</h1>
+      <hr style={{ width: '5rem' }} />
       <p>{description}</p>
       <a href={link}>
         <Button variant='outlined' color='red'>
