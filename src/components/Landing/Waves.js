@@ -2,7 +2,7 @@ import React from 'react';
 
 const AnimatedWaves = () => {
   return (
-    <div>
+    <>
       <svg
         className='waves'
         xmlns='http://www.w3.org/2000/svg'
@@ -39,7 +39,7 @@ const AnimatedWaves = () => {
           <use xlinkHref='#gentle-wave' x='48' y='7' fill='#fff' />
         </g>
       </svg>
-    </div>
+    </>
   );
 };
 

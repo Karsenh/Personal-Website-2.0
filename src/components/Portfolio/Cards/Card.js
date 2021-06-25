@@ -1,4 +1,5 @@
 import { Button } from '@material-ui/core';
+import { GoLogoGithub } from 'react-icons/go';
 import React from 'react';
 
 const Card = ({ title, description, link }) => {
@@ -8,8 +9,8 @@ const Card = ({ title, description, link }) => {
       <hr style={{ width: '5rem' }} />
       <p>{description}</p>
       <a href={link}>
-        <Button variant='outlined' color='red'>
-          View Source
+        <Button variant='outlined'>
+          <GoLogoGithub size={40} />
         </Button>
       </a>
     </>

@@ -1,4 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
+@import './components/Landing/Landing.scss';
 
 $main-dark-blue: rgba(16, 70, 102, 0.60);
 $main-light-turq: rgba(4, 238, 218, 0.65);
@@ -6,9 +7,6 @@ $main-light-turq: rgba(4, 238, 218, 0.65);
 * {
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
-}
-
-body {
     margin: 0;
 }
 
@@ -32,6 +30,7 @@ p {
     justify-content: center;
 }
 
+
 /* SCROLL-BAR */
 /* width */
 ::-webkit-scrollbar {
@@ -54,46 +53,11 @@ p {
     background: $main-light-turq; 
   }
 
-.landing-header {
-    font-size: 62px;
-}
+  .site-content {
+      display: flex;
+      flex-direction: column;
+  }
 
-.custom-btn {
-    color: white !important;
-    border-color: rgba(255, 255, 255, 0.521) !important;
-    background-color: rgba(16, 70, 102, 0.301) !important;
-    margin-left: 3rem !important;
-    padding: 0.6rem 1rem !important;
-}
-
-.custom-btn:hover {
-    background-color: $main-light-turq !important;
-    color: $main-dark-blue !important;
-    border-color: rgba(16, 70, 102, 0.603) !important;
-    font-weight: 600;
-}
-
-.header {
-    position: relative;
-    text-align: center;
-    background: linear-gradient(35deg, rgb(0, 80, 126) 0%, rgb(4, 238, 218) 100%);
-    color: white;
-}
-
-.logo {
-    width: 50px;
-    fill: white;
-    padding-right: 15px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.inner-header {
-    height: 35vh;
-    width: 100%;
-    margin: 0;
-    padding: 5rem 0 0;
-}
 
 .flex {
     /*Flexbox for containers*/
@@ -107,8 +71,8 @@ p {
     position: relative;
     width: 100%;
     height: 15vh;
-    margin-bottom: -7px;
-    margin-top: 15rem;
+    // margin-bottom: -35rem;
+    margin-top: -9rem;
     /*Fix for safari gap*/
     min-height: 100px;
     max-height: 150px;
@@ -176,9 +140,3 @@ p {
     }
 }
 
-.custom-name {
-    font-family: 'Playball';
-    font-size: 1.5rem;
-    margin-left: 0.65rem;
-    color: rgb(6, 55, 83);
-}

@@ -10,7 +10,7 @@ const Portfolio = () => {
       <div className='portfolio-cards'>
         {Projects.map((project, index) => {
           return (
-            <div className='portfolio-card'>
+            <div key={index} className='portfolio-card'>
               <CustomCard
                 key={index}
                 title={project.title}
